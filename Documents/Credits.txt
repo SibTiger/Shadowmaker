@@ -1,0 +1,24 @@
+=======================================
+---------------------------------------
+                Credits
+          Generalized Credits
+---------------------------------------
+=======================================
+
+
+
+Doomenator
+----
+    Created dark ambient music using Ransu's "Doom 20th Anniversary Music" as base.
+    Link - Dark Ambient Music:
+        Link: http://zandronum.com/forum/showthread.php?tid=5826&pid=79641#pid79641
+    Link - Ransu's Doom 20th Anniversary Music 
+        Link: http://zandronum.com/forum/showthread.php?tid=97&pid=795#pid795
+    ATTN: /idgames Archive Maintainers:
+        README.INCOMING:WAD RULES 4: "Do not embed commercial MP3s as music in WADs"
+        As a precaution, these assets can be found at the specified link (under: Link) which the author of these songs explicitly states:
+            "You may use/edit this files for any use you see fit, if you give credits."
+        These files can be accessed by anyone (provided they can access the Zandronum Forums) and use them free-of-charge with no strings attached as long as they meet with the author's wishes.
+    Legal Remarks:
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+            Original music by id Software.
