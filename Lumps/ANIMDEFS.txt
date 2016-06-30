@@ -1,0 +1,731 @@
+////////////////////////////
+// Animations Definitions //
+////////////////////////////
+
+
+// ==============================
+//       Texture Animations
+// ==============================
+
+
+// Texture Base: nb_recol
+// -----------------
+TEXTURE TX1_0CC
+    PIC TX1_0CC RAND 15 35
+    PIC TX1_0CD RAND 15 35
+
+    TEXTURE TX1_0CD
+        PIC TX1_0CD RAND 15 35
+        PIC TX1_0CC RAND 15 35
+
+
+// Texture Base: retres
+// -----------------
+TEXTURE TX1_0DG
+    PIC TX1_0DG TICS 7
+    PIC TX1_0DH TICS 7
+    PIC TX1_0DI TICS 7
+    PIC TX1_0DJ TICS 7
+
+    TEXTURE TX1_0DH
+        PIC TX1_0DH TICS 7
+        PIC TX1_0DI TICS 7
+        PIC TX1_0DJ TICS 7
+        PIC TX1_0DG TICS 7
+
+    TEXTURE TX1_0DI
+        PIC TX1_0DI TICS 7
+        PIC TX1_0DJ TICS 7
+        PIC TX1_0DG TICS 7
+        PIC TX1_0DH TICS 7
+
+    TEXTURE TX1_0DJ
+        PIC TX1_0DJ TICS 7
+        PIC TX1_0DG TICS 7
+        PIC TX1_0DH TICS 7
+        PIC TX1_0DI TICS 7
+
+
+// ----
+
+
+TEXTURE TX1_0DK
+    PIC TX1_0DK TICS 6
+    PIC TX1_0DL TICS 6
+    PIC TX1_0DM TICS 6
+    PIC TX1_0DN TICS 6
+
+    TEXTURE TX1_0DL
+        PIC TX1_0DL TICS 6
+        PIC TX1_0DM TICS 6
+        PIC TX1_0DN TICS 6
+        PIC TX1_0DK TICS 6
+
+    TEXTURE TX1_0DM
+        PIC TX1_0DM TICS 6
+        PIC TX1_0DN TICS 6
+        PIC TX1_0DK TICS 6
+        PIC TX1_0DL TICS 6
+
+    TEXTURE TX1_0DN
+        PIC TX1_0DN TICS 6
+        PIC TX1_0DK TICS 6
+        PIC TX1_0DL TICS 6
+        PIC TX1_0DM TICS 6
+
+
+// --
+
+
+TEXTURE TX1_0DO
+    PIC TX1_0DO TICS 6
+    PIC TX1_0DP TICS 6
+    PIC TX1_0DQ TICS 6
+    PIC TX1_0DR TICS 6
+
+    TEXTURE TX1_0DP
+        PIC TX1_0DP TICS 6
+        PIC TX1_0DQ TICS 6
+        PIC TX1_0DR TICS 6
+        PIC TX1_0DO TICS 6
+
+    TEXTURE TX1_0DQ
+        PIC TX1_0DQ TICS 6
+        PIC TX1_0DR TICS 6
+        PIC TX1_0DO TICS 6
+        PIC TX1_0DP TICS 6
+
+    TEXTURE TX1_0DR
+        PIC TX1_0DR TICS 6
+        PIC TX1_0DO TICS 6
+        PIC TX1_0DP TICS 6
+        PIC TX1_0DQ TICS 6
+
+
+
+// Texture Base: drdtextures
+// -----------------
+TEXTURE TX1_0EG
+    PIC TX1_0EG TICS 4
+    PIC TX1_0EH TICS 4
+    PIC TX1_0EI TICS 4
+    PIC TX1_0EJ TICS 4
+    PIC TX1_0EK TICS 4
+    PIC TX1_0EL TICS 4
+    PIC TX1_0EM TICS 4
+    PIC TX1_0EN TICS 4
+    PIC TX1_0EM TICS 4
+    PIC TX1_0EL TICS 4
+    PIC TX1_0EK TICS 4
+    PIC TX1_0EJ TICS 4
+    PIC TX1_0EI TICS 4
+    PIC TX1_0EH TICS 4
+
+    TEXTURE TX1_0EH
+        PIC TX1_0EH TICS 4
+        PIC TX1_0EI TICS 4
+        PIC TX1_0EJ TICS 4
+        PIC TX1_0EK TICS 4
+        PIC TX1_0EL TICS 4
+        PIC TX1_0EM TICS 4
+        PIC TX1_0EN TICS 4
+        PIC TX1_0EG TICS 4
+        PIC TX1_0EN TICS 4
+        PIC TX1_0EM TICS 4
+        PIC TX1_0EL TICS 4
+        PIC TX1_0EK TICS 4
+        PIC TX1_0EJ TICS 4
+        PIC TX1_0EI TICS 4
+
+    TEXTURE TX1_0EI
+        PIC TX1_0EI TICS 4
+        PIC TX1_0EJ TICS 4
+        PIC TX1_0EK TICS 4
+        PIC TX1_0EL TICS 4
+        PIC TX1_0EM TICS 4
+        PIC TX1_0EN TICS 4
+        PIC TX1_0EG TICS 4
+        PIC TX1_0EH TICS 4
+        PIC TX1_0EG TICS 4
+        PIC TX1_0EN TICS 4
+        PIC TX1_0EM TICS 4
+        PIC TX1_0EL TICS 4
+        PIC TX1_0EK TICS 4
+        PIC TX1_0EJ TICS 4
+
+    TEXTURE TX1_0EJ
+        PIC TX1_0EJ TICS 4
+        PIC TX1_0EK TICS 4
+        PIC TX1_0EL TICS 4
+        PIC TX1_0EM TICS 4
+        PIC TX1_0EN TICS 4
+        PIC TX1_0EG TICS 4
+        PIC TX1_0EH TICS 4
+        PIC TX1_0EI TICS 4
+        PIC TX1_0EH TICS 4
+        PIC TX1_0EG TICS 4
+        PIC TX1_0EN TICS 4
+        PIC TX1_0EM TICS 4
+        PIC TX1_0EL TICS 4
+        PIC TX1_0EK TICS 4
+
+    TEXTURE TX1_0EK
+        PIC TX1_0EK TICS 4
+        PIC TX1_0EL TICS 4
+        PIC TX1_0EM TICS 4
+        PIC TX1_0EN TICS 4
+        PIC TX1_0EG TICS 4
+        PIC TX1_0EH TICS 4
+        PIC TX1_0EI TICS 4
+        PIC TX1_0EJ TICS 4
+        PIC TX1_0EI TICS 4
+        PIC TX1_0EH TICS 4
+        PIC TX1_0EG TICS 4
+        PIC TX1_0EN TICS 4
+        PIC TX1_0EM TICS 4
+        PIC TX1_0EL TICS 4
+
+    TEXTURE TX1_0EL
+        PIC TX1_0EL TICS 4
+        PIC TX1_0EM TICS 4
+        PIC TX1_0EN TICS 4
+        PIC TX1_0EG TICS 4
+        PIC TX1_0EH TICS 4
+        PIC TX1_0EI TICS 4
+        PIC TX1_0EJ TICS 4
+        PIC TX1_0EK TICS 4
+        PIC TX1_0EJ TICS 4
+        PIC TX1_0EI TICS 4
+        PIC TX1_0EH TICS 4
+        PIC TX1_0EG TICS 4
+        PIC TX1_0EN TICS 4
+        PIC TX1_0EM TICS 4
+
+    TEXTURE TX1_0EM
+        PIC TX1_0EM TICS 4
+        PIC TX1_0EN TICS 4
+        PIC TX1_0EG TICS 4
+        PIC TX1_0EH TICS 4
+        PIC TX1_0EI TICS 4
+        PIC TX1_0EJ TICS 4
+        PIC TX1_0EK TICS 4
+        PIC TX1_0EL TICS 4
+        PIC TX1_0EK TICS 4
+        PIC TX1_0EJ TICS 4
+        PIC TX1_0EI TICS 4
+        PIC TX1_0EH TICS 4
+        PIC TX1_0EG TICS 4
+        PIC TX1_0EN TICS 4
+
+    TEXTURE TX1_0EN
+        PIC TX1_0EN TICS 4
+        PIC TX1_0EG TICS 4
+        PIC TX1_0EH TICS 4
+        PIC TX1_0EI TICS 4
+        PIC TX1_0EJ TICS 4
+        PIC TX1_0EK TICS 4
+        PIC TX1_0EL TICS 4
+        PIC TX1_0EM TICS 4
+        PIC TX1_0EL TICS 4
+        PIC TX1_0EK TICS 4
+        PIC TX1_0EJ TICS 4
+        PIC TX1_0EI TICS 4
+        PIC TX1_0EH TICS 4
+        PIC TX1_0EG TICS 4
+
+
+// Texture Base: dtexpak
+// -----------------
+TEXTURE TX1_0FI
+    PIC TX1_0FI TICS 3
+    PIC TX1_0FJ TICS 3
+    PIC TX1_0FK TICS 3
+    PIC TX1_0FL TICS 3
+    PIC TX1_0FM TICS 3
+    PIC TX1_0FN TICS 3
+    PIC TX1_0FO TICS 3
+    PIC TX1_0FP TICS 3
+    PIC TX1_0FQ TICS 3
+
+    TEXTURE TX1_0FJ
+        PIC TX1_0FJ TICS 3
+        PIC TX1_0FK TICS 3
+        PIC TX1_0FL TICS 3
+        PIC TX1_0FM TICS 3
+        PIC TX1_0FN TICS 3
+        PIC TX1_0FO TICS 3
+        PIC TX1_0FP TICS 3
+        PIC TX1_0FQ TICS 3
+        PIC TX1_0FI TICS 3
+
+    TEXTURE TX1_0FK
+        PIC TX1_0FK TICS 3
+        PIC TX1_0FL TICS 3
+        PIC TX1_0FM TICS 3
+        PIC TX1_0FN TICS 3
+        PIC TX1_0FO TICS 3
+        PIC TX1_0FP TICS 3
+        PIC TX1_0FQ TICS 3
+        PIC TX1_0FI TICS 3
+        PIC TX1_0FJ TICS 3
+
+    TEXTURE TX1_0FL
+        PIC TX1_0FL TICS 3
+        PIC TX1_0FM TICS 3
+        PIC TX1_0FN TICS 3
+        PIC TX1_0FO TICS 3
+        PIC TX1_0FP TICS 3
+        PIC TX1_0FQ TICS 3
+        PIC TX1_0FI TICS 3
+        PIC TX1_0FJ TICS 3
+        PIC TX1_0FK TICS 3
+
+    TEXTURE TX1_0FM
+        PIC TX1_0FM TICS 3
+        PIC TX1_0FN TICS 3
+        PIC TX1_0FO TICS 3
+        PIC TX1_0FP TICS 3
+        PIC TX1_0FQ TICS 3
+        PIC TX1_0FI TICS 3
+        PIC TX1_0FJ TICS 3
+        PIC TX1_0FK TICS 3
+        PIC TX1_0FL TICS 3
+
+    TEXTURE TX1_0FN
+        PIC TX1_0FN TICS 3
+        PIC TX1_0FO TICS 3
+        PIC TX1_0FP TICS 3
+        PIC TX1_0FQ TICS 3
+        PIC TX1_0FI TICS 3
+        PIC TX1_0FJ TICS 3
+        PIC TX1_0FK TICS 3
+        PIC TX1_0FL TICS 3
+        PIC TX1_0FM TICS 3
+
+    TEXTURE TX1_0FO
+        PIC TX1_0FO TICS 3
+        PIC TX1_0FP TICS 3
+        PIC TX1_0FQ TICS 3
+        PIC TX1_0FI TICS 3
+        PIC TX1_0FJ TICS 3
+        PIC TX1_0FK TICS 3
+        PIC TX1_0FL TICS 3
+        PIC TX1_0FM TICS 3
+        PIC TX1_0FN TICS 3
+
+    TEXTURE TX1_0FP
+        PIC TX1_0FP TICS 3
+        PIC TX1_0FQ TICS 3
+        PIC TX1_0FI TICS 3
+        PIC TX1_0FJ TICS 3
+        PIC TX1_0FK TICS 3
+        PIC TX1_0FL TICS 3
+        PIC TX1_0FM TICS 3
+        PIC TX1_0FN TICS 3
+        PIC TX1_0FO TICS 3
+
+    TEXTURE TX1_0FQ
+        PIC TX1_0FQ TICS 3
+        PIC TX1_0FI TICS 3
+        PIC TX1_0FJ TICS 3
+        PIC TX1_0FK TICS 3
+        PIC TX1_0FL TICS 3
+        PIC TX1_0FM TICS 3
+        PIC TX1_0FN TICS 3
+        PIC TX1_0FO TICS 3
+        PIC TX1_0FP TICS 3
+
+
+// --
+
+
+TEXTURE TX1_0FR
+    PIC TX1_0FR TICS 3
+    PIC TX1_0FS TICS 3
+    PIC TX1_0FT TICS 3
+    PIC TX1_0FU TICS 3
+    PIC TX1_0FV TICS 3
+    PIC TX1_0FW TICS 3
+    PIC TX1_0FX TICS 3
+    PIC TX1_0FY TICS 3
+    PIC TX1_0FZ TICS 3
+
+    TEXTURE TX1_0FS
+        PIC TX1_0FS TICS 3
+        PIC TX1_0FT TICS 3
+        PIC TX1_0FU TICS 3
+        PIC TX1_0FV TICS 3
+        PIC TX1_0FW TICS 3
+        PIC TX1_0FX TICS 3
+        PIC TX1_0FY TICS 3
+        PIC TX1_0FZ TICS 3
+        PIC TX1_0FR TICS 3
+
+    TEXTURE TX1_0FT
+        PIC TX1_0FT TICS 3
+        PIC TX1_0FU TICS 3
+        PIC TX1_0FV TICS 3
+        PIC TX1_0FW TICS 3
+        PIC TX1_0FX TICS 3
+        PIC TX1_0FY TICS 3
+        PIC TX1_0FZ TICS 3
+        PIC TX1_0FR TICS 3
+        PIC TX1_0FS TICS 3
+
+    TEXTURE TX1_0FU
+        PIC TX1_0FU TICS 3
+        PIC TX1_0FV TICS 3
+        PIC TX1_0FW TICS 3
+        PIC TX1_0FX TICS 3
+        PIC TX1_0FY TICS 3
+        PIC TX1_0FZ TICS 3
+        PIC TX1_0FR TICS 3
+        PIC TX1_0FS TICS 3
+        PIC TX1_0FT TICS 3
+
+    TEXTURE TX1_0FV
+        PIC TX1_0FV TICS 3
+        PIC TX1_0FW TICS 3
+        PIC TX1_0FX TICS 3
+        PIC TX1_0FY TICS 3
+        PIC TX1_0FZ TICS 3
+        PIC TX1_0FR TICS 3
+        PIC TX1_0FS TICS 3
+        PIC TX1_0FT TICS 3
+        PIC TX1_0FU TICS 3
+
+    TEXTURE TX1_0FW
+        PIC TX1_0FW TICS 3
+        PIC TX1_0FX TICS 3
+        PIC TX1_0FY TICS 3
+        PIC TX1_0FZ TICS 3
+        PIC TX1_0FR TICS 3
+        PIC TX1_0FS TICS 3
+        PIC TX1_0FT TICS 3
+        PIC TX1_0FU TICS 3
+        PIC TX1_0FV TICS 3
+
+    TEXTURE TX1_0FX
+        PIC TX1_0FX TICS 3
+        PIC TX1_0FY TICS 3
+        PIC TX1_0FZ TICS 3
+        PIC TX1_0FR TICS 3
+        PIC TX1_0FS TICS 3
+        PIC TX1_0FT TICS 3
+        PIC TX1_0FU TICS 3
+        PIC TX1_0FV TICS 3
+        PIC TX1_0FW TICS 3
+
+    TEXTURE TX1_0FY
+        PIC TX1_0FY TICS 3
+        PIC TX1_0FZ TICS 3
+        PIC TX1_0FR TICS 3
+        PIC TX1_0FS TICS 3
+        PIC TX1_0FT TICS 3
+        PIC TX1_0FU TICS 3
+        PIC TX1_0FV TICS 3
+        PIC TX1_0FW TICS 3
+        PIC TX1_0FX TICS 3
+
+    TEXTURE TX1_0FZ
+        PIC TX1_0FZ TICS 3
+        PIC TX1_0FR TICS 3
+        PIC TX1_0FS TICS 3
+        PIC TX1_0FT TICS 3
+        PIC TX1_0FU TICS 3
+        PIC TX1_0FV TICS 3
+        PIC TX1_0FW TICS 3
+        PIC TX1_0FX TICS 3
+        PIC TX1_0FY TICS 3
+
+
+// --
+
+
+TEXTURE TX1_0G9
+    PIC TX1_0G9 TICS 3
+    PIC TX1_0GA TICS 3
+    PIC TX1_0GB TICS 3
+    PIC TX1_0GC TICS 3
+    PIC TX1_0GD TICS 3
+    PIC TX1_0GE TICS 3
+    PIC TX1_0GF TICS 3
+    PIC TX1_0GG TICS 3
+    PIC TX1_0GH TICS 3
+
+    TEXTURE TX1_0GA
+        PIC TX1_0GA TICS 3
+        PIC TX1_0GB TICS 3
+        PIC TX1_0GC TICS 3
+        PIC TX1_0GD TICS 3
+        PIC TX1_0GE TICS 3
+        PIC TX1_0GF TICS 3
+        PIC TX1_0GG TICS 3
+        PIC TX1_0GH TICS 3
+        PIC TX1_0G9 TICS 3
+
+    TEXTURE TX1_0GB
+        PIC TX1_0GB TICS 3
+        PIC TX1_0GC TICS 3
+        PIC TX1_0GD TICS 3
+        PIC TX1_0GE TICS 3
+        PIC TX1_0GF TICS 3
+        PIC TX1_0GG TICS 3
+        PIC TX1_0GH TICS 3
+        PIC TX1_0G9 TICS 3
+        PIC TX1_0GA TICS 3
+
+    TEXTURE TX1_0GC
+        PIC TX1_0GC TICS 3
+        PIC TX1_0GD TICS 3
+        PIC TX1_0GE TICS 3
+        PIC TX1_0GF TICS 3
+        PIC TX1_0GG TICS 3
+        PIC TX1_0GH TICS 3
+        PIC TX1_0G9 TICS 3
+        PIC TX1_0GA TICS 3
+        PIC TX1_0GB TICS 3
+
+    TEXTURE TX1_0GD
+        PIC TX1_0GD TICS 3
+        PIC TX1_0GE TICS 3
+        PIC TX1_0GF TICS 3
+        PIC TX1_0GG TICS 3
+        PIC TX1_0GH TICS 3
+        PIC TX1_0G9 TICS 3
+        PIC TX1_0GA TICS 3
+        PIC TX1_0GB TICS 3
+        PIC TX1_0GC TICS 3
+
+    TEXTURE TX1_0GE
+        PIC TX1_0GE TICS 3
+        PIC TX1_0GF TICS 3
+        PIC TX1_0GG TICS 3
+        PIC TX1_0GH TICS 3
+        PIC TX1_0G9 TICS 3
+        PIC TX1_0GA TICS 3
+        PIC TX1_0GB TICS 3
+        PIC TX1_0GC TICS 3
+        PIC TX1_0GD TICS 3
+
+    TEXTURE TX1_0GF
+        PIC TX1_0GF TICS 3
+        PIC TX1_0GG TICS 3
+        PIC TX1_0GH TICS 3
+        PIC TX1_0G9 TICS 3
+        PIC TX1_0GA TICS 3
+        PIC TX1_0GB TICS 3
+        PIC TX1_0GC TICS 3
+        PIC TX1_0GD TICS 3
+        PIC TX1_0GE TICS 3
+
+    TEXTURE TX1_0GG
+        PIC TX1_0GG TICS 3
+        PIC TX1_0GH TICS 3
+        PIC TX1_0G9 TICS 3
+        PIC TX1_0GA TICS 3
+        PIC TX1_0GB TICS 3
+        PIC TX1_0GC TICS 3
+        PIC TX1_0GD TICS 3
+        PIC TX1_0GE TICS 3
+        PIC TX1_0GF TICS 3
+
+    TEXTURE TX1_0GH
+        PIC TX1_0GH TICS 3
+        PIC TX1_0G9 TICS 3
+        PIC TX1_0GA TICS 3
+        PIC TX1_0GB TICS 3
+        PIC TX1_0GC TICS 3
+        PIC TX1_0GD TICS 3
+        PIC TX1_0GE TICS 3
+        PIC TX1_0GF TICS 3
+        PIC TX1_0GG TICS 3
+
+
+// --
+
+
+TEXTURE TX1_0GI
+    PIC TX1_0GI TICS 3
+    PIC TX1_0GJ TICS 3
+    PIC TX1_0GK TICS 3
+    PIC TX1_0GL TICS 3
+    PIC TX1_0GM TICS 3
+    PIC TX1_0GN TICS 3
+    PIC TX1_0GO TICS 3
+    PIC TX1_0GP TICS 3
+    PIC TX1_0GQ TICS 3
+
+    TEXTURE TX1_0GJ
+        PIC TX1_0GJ TICS 3
+        PIC TX1_0GK TICS 3
+        PIC TX1_0GL TICS 3
+        PIC TX1_0GM TICS 3
+        PIC TX1_0GN TICS 3
+        PIC TX1_0GO TICS 3
+        PIC TX1_0GP TICS 3
+        PIC TX1_0GQ TICS 3
+        PIC TX1_0GI TICS 3
+
+    TEXTURE TX1_0GK
+        PIC TX1_0GK TICS 3
+        PIC TX1_0GL TICS 3
+        PIC TX1_0GM TICS 3
+        PIC TX1_0GN TICS 3
+        PIC TX1_0GO TICS 3
+        PIC TX1_0GP TICS 3
+        PIC TX1_0GQ TICS 3
+        PIC TX1_0GI TICS 3
+        PIC TX1_0GJ TICS 3
+
+    TEXTURE TX1_0GL
+        PIC TX1_0GL TICS 3
+        PIC TX1_0GM TICS 3
+        PIC TX1_0GN TICS 3
+        PIC TX1_0GO TICS 3
+        PIC TX1_0GP TICS 3
+        PIC TX1_0GQ TICS 3
+        PIC TX1_0GI TICS 3
+        PIC TX1_0GJ TICS 3
+        PIC TX1_0GK TICS 3
+
+    TEXTURE TX1_0GM
+        PIC TX1_0GM TICS 3
+        PIC TX1_0GN TICS 3
+        PIC TX1_0GO TICS 3
+        PIC TX1_0GP TICS 3
+        PIC TX1_0GQ TICS 3
+        PIC TX1_0GI TICS 3
+        PIC TX1_0GJ TICS 3
+        PIC TX1_0GK TICS 3
+        PIC TX1_0GL TICS 3
+
+    TEXTURE TX1_0GN
+        PIC TX1_0GN TICS 3
+        PIC TX1_0GO TICS 3
+        PIC TX1_0GP TICS 3
+        PIC TX1_0GQ TICS 3
+        PIC TX1_0GI TICS 3
+        PIC TX1_0GJ TICS 3
+        PIC TX1_0GK TICS 3
+        PIC TX1_0GL TICS 3
+        PIC TX1_0GM TICS 3
+
+    TEXTURE TX1_0GO
+        PIC TX1_0GO TICS 3
+        PIC TX1_0GP TICS 3
+        PIC TX1_0GQ TICS 3
+        PIC TX1_0GI TICS 3
+        PIC TX1_0GJ TICS 3
+        PIC TX1_0GK TICS 3
+        PIC TX1_0GL TICS 3
+        PIC TX1_0GM TICS 3
+        PIC TX1_0GN TICS 3
+
+    TEXTURE TX1_0GP
+        PIC TX1_0GP TICS 3
+        PIC TX1_0GQ TICS 3
+        PIC TX1_0GI TICS 3
+        PIC TX1_0GJ TICS 3
+        PIC TX1_0GK TICS 3
+        PIC TX1_0GL TICS 3
+        PIC TX1_0GM TICS 3
+        PIC TX1_0GN TICS 3
+        PIC TX1_0GO TICS 3
+
+    TEXTURE TX1_0GQ
+        PIC TX1_0GQ TICS 3
+        PIC TX1_0GI TICS 3
+        PIC TX1_0GJ TICS 3
+        PIC TX1_0GK TICS 3
+        PIC TX1_0GL TICS 3
+        PIC TX1_0GM TICS 3
+        PIC TX1_0GN TICS 3
+        PIC TX1_0GO TICS 3
+        PIC TX1_0GP TICS 3
+
+
+
+// ==============================
+//            Switches
+// ==============================
+
+
+
+// Texture Base: drdtextures
+// -----------------
+    SWITCH TX4_0AY ON PIC TX4_0AZ TICS 0
+    SWITCH TX4_0AZ OFF PIC TX4_0AY TICS 0
+
+
+
+// ==============================
+//              Warp
+// ==============================
+
+
+
+// Texture Base: 2mbrown
+// -----------------
+    WARP FLAT TX2_003
+    // --
+    WARP FLAT TX2_004
+    // --
+    WARP FLAT TX2_005
+    WARP2 FLAT TX3_005
+
+
+// Texture Base: decontex
+// -----------------
+    WARP2 FLAT TX3_006
+    // --
+    WARP2 FLAT TX3_007
+
+
+// Texture Base: nmncorp1
+// -----------------
+    WARP FLAT TX2_00C
+    WARP2 FLAT TX3_00C
+
+
+// Texture Base: dtexpak
+// -----------------
+    WARP FLAT TX2_00Q
+    // --
+    WARP FLAT TX2_00S
+
+
+// Texture Base: smdm
+// -----------------
+    WARP FLAT TX2_00V
+    // --
+    WARP2 FLAT TX3_011
+
+
+// Texture Base: Doom 2 [Defined in TEXTURES lump]
+// -----------------
+    WARP FLAT TX5_000
+
+
+// TGRDM3 Specifics
+// -----------------
+    WARP FLAT TX5_001
+    WARP FLAT TX5_002
+    WARP FLAT TX5_005
+    WARP2 FLAT TX5_003
+    WARP2 FLAT TX5_004
+
+
+// ==============================
+//      Wall Camera Textures
+// ==============================
+CAMERATEXTURE WALLCAM0 512 512 FIT 128 128
+CAMERATEXTURE WALLCAM1 512 512 FIT 128 128
+CAMERATEXTURE WALLCAM2 512 512 FIT 128 128
+CAMERATEXTURE WALLCAM3 512 512 FIT 128 128
+CAMERATEXTURE WALLCAM4 512 512 FIT 128 128
+CAMERATEXTURE WALLCAM5 512 512 FIT 128 128
+CAMERATEXTURE WALLCAM6 512 512 FIT 128 128
+CAMERATEXTURE WALLCAM7 512 512 FIT 128 128
+CAMERATEXTURE WALLCAM8 512 512 FIT 128 128
+CAMERATEXTURE WALLCAM9 512 512 FIT 128 128
