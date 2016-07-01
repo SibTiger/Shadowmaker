@@ -46,8 +46,8 @@ REM # ==========================================================================
 REM Static Variables
 SET ProjectName=Shadowmaker
 SET ProjectNameShort=Shadowmaker
-SET ProjectVersion=5
-SET ReleaseDate=12.March.2016
+SET ProjectVersion=1
+SET ReleaseDate=30.June.2016
 SET ProjectNameCompact=shdwmkr
 REM Used as the filename and directory when compiling the project.  This is built in the compiling protocol, just let it as 'UNKNOWN' here and change it later.
 SET FileName=UNKNOWN
