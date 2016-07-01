@@ -212,10 +212,6 @@ REM Documentations
 REM Textures
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Textures\*.*" "%~1Textures\"
     CALL :CompileProject_TaskOperation
-    REM ----
-    REM Capture any sub-directories
-    SET TaskCaller_CallLong=XCOPY %XCopyArg% /E "%UserConfig.DirProjectWorkingCopy%\Textures\*" "%~1Textures\"
-    CALL :CompileProject_TaskOperation
 REM Lumps
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Lumps\*.*" "%~1"
     CALL :CompileProject_TaskOperation
