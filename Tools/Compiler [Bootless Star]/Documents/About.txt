@@ -1,0 +1,29 @@
+Shadowmaker Compiler
+==================
+------------------
+
+
+Shadowmaker Compiler is designed to generate the Shadowmaker project directly from the version control directory.
+
+
+
+Modifying:
+--------------
+Core:
+    InitializationVars.bat
+
+External Script:
+    Compiler_Map.bat
+
+
+
+Shadowmaker Compiler Project Detection:
+--------------
+The detection used in the compiler demands that the Compiler_Map must be in the project's root directory.  Thus, if the location of the core project is: "F:\SVNProjects\MyUltraCoolProject\Trunk\" then this is the directory that the script file must be in.
+
+
+
+Prerequisites:
+--------------
+    7Zip
+    Local Working Copy resources
