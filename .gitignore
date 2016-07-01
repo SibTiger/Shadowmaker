@@ -10,6 +10,32 @@
 
 
 
+# ================================
+#    WAD Editing Tool Specifics
+# ================================
+
+# [SLADE] Backup Files
+*.wad.bak
+
+
+
+# ================================
+#        Assets data file
+# ================================
+
+shdwmkr_assets.pk[3|7]
+
+
+
+# ================================
+#    miscellaneous
+# ================================
+
+# Bootless Star [Compiler]
+Tools/Compiler\ \[Bootless Star\]/Shadowmaker.bat
+
+
+
 
 # Standard GitIgnore:
 # ---------------------
@@ -27,6 +53,3 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-
-# Mac crap
-.DS_Store
