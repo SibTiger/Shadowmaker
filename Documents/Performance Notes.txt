@@ -1,0 +1,18 @@
+Performance Notes:
+====================
+
+Most maps in this project uses seriously intensive resources for the features\eye-candy used.  Toggle these Console Variables:
+
+
+    Line Mirrors (Software Renderer)
+        R_DrawMirrors [True|False]
+    Line Mirrors (OpenGL Renderer)
+        GL_Mirrors [True|False]
+    Sector Reflections
+        GL_Plane_Reflection [True|False]
+    Dynamic Lights
+        GL_Lights [True|False]
+    Render translucency effects
+        R_DrawTrans [True|False]
+    Toggle Rendering Precision
+        GL_Render_Precise [True|False]
