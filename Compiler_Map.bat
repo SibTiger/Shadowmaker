@@ -171,15 +171,25 @@ REM # ==========================================================================
 REM This variable is used to describe the drivers main purpose and present the value in the log files.
 CALL :CompileProject_Display_IncomingTaskSubLevel "Creating archive filesystem"
 REM ----
+REM Decorate
+    SET "TaskCaller_CallLong=MKDIR %~1Decorate"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Documentations
     SET "TaskCaller_CallLong=MKDIR %~1Documentation"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
+REM Sounds
+    SET "TaskCaller_CallLong=MKDIR %~1Sounds"
     CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Maps
     SET "TaskCaller_CallLong=MKDIR %~1Maps"
     CALL :CompileProject_TaskOperation || EXIT /B 1
+REM Sprites
+    SET "TaskCaller_CallLong=MKDIR %~1Sprites"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Textures
     SET "TaskCaller_CallLong=MKDIR %~1Textures"
     CALL :CompileProject_TaskOperation || EXIT /B 1
+REM ----
 EXIT /B 0
 
 
@@ -191,6 +201,16 @@ REM # ==========================================================================
 :Make_ArchiveResourceFilesystem
 REM This variable is used to describe the drivers main purpose and present the value in the log files.
 CALL :CompileProject_Display_IncomingTaskSubLevel "Creating resource archive filesystem"
+REM ----
+REM Decorate
+    SET "TaskCaller_CallLong=MKDIR %~1Decorate"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
+REM Sounds
+    SET "TaskCaller_CallLong=MKDIR %~1Sounds"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
+REM Sprites
+    SET "TaskCaller_CallLong=MKDIR %~1Sprites"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
 REM ----
 EXIT /B 0
 
@@ -218,6 +238,19 @@ REM Lumps
 REM Maps
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Maps\*.*" "%~1Maps\"
     CALL :CompileProject_TaskOperation
+REM Decorate
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Decorate\DECORATE.txt*" "%~1"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Decorate\Effects\*.*" "%~1Decorate\"
+    CALL :CompileProject_TaskOperation
+REM Sprites
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\BreakableGlass\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+REM Sounds 
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\World\*.*" "%~1Sounds\"
+    CALL :CompileProject_TaskOperation
+    REM ----
 EXIT /B 0
 
 
@@ -235,6 +268,19 @@ REM Duplicate the following:
 REM Lumps
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Lumps\*.*" "%~1"
     CALL :CompileProject_TaskOperation
+REM Decorate
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Decorate\DECORATE.txt*" "%~1"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Decorate\Effects\*.*" "%~1Decorate\"
+    CALL :CompileProject_TaskOperation
+REM Sprites
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\BreakableGlass\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+REM Sounds 
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\World\*.*" "%~1Sounds\"
+    CALL :CompileProject_TaskOperation
+REM ----
 EXIT /B 0
 
 

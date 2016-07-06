@@ -646,6 +646,17 @@ TEXTURE TX1_0GI
 
 
 
+// Breakable Glass
+// -----------------
+    SWITCH ZRIONGLS ON SOUND GLASS
+    PIC njsmsh01 TICS 4
+    PIC njsmsh02 TICS 4
+    PIC njsmsh03 TICS 4
+    PIC njsmsh04 TICS 4
+    PIC njsmsh05 TICS 4
+
+
+
 // ==============================
 //            Switches
 // ==============================
@@ -714,6 +725,7 @@ TEXTURE TX1_0GI
     WARP FLAT TX5_005
     WARP2 FLAT TX5_003
     WARP2 FLAT TX5_004
+
 
 
 // ==============================
