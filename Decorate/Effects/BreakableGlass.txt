@@ -26,6 +26,15 @@ ACTOR NJGlassShard : GlassShard
 
 ACTOR MapSpotCeiling : MapSpot 9112
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "World Effects"
+        //$Color 9
+        //$Sprite NJGLB0
+        //$Angled
+        //$Title "Breakable Glass [MapSpot]"
+    // ------------------------------
+    // ==============================
     Height 1
     +SPAWNCEILING
 }
