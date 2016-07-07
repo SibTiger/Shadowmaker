@@ -10,3 +10,4 @@ Location: N/A
 
 Identity Textures:
     TX0_2UV
+    TX0_4X7

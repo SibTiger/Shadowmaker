@@ -1,5 +1,5 @@
 TX0_x
-    TX0_000-TX0_4X7
+    TX0_000-TX0_4X8
 
 TX1_x
     TX1_000-TX1_0GQ
