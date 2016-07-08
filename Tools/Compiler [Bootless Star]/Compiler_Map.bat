@@ -253,6 +253,9 @@ REM Sprites
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Rain\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\LightTower\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
 REM Sounds 
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\World\*.*" "%~1Sounds\"
     CALL :CompileProject_TaskOperation
@@ -288,6 +291,9 @@ REM Sprites
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Rain\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\LightTower\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
 REM Sounds 
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\World\*.*" "%~1Sounds\"

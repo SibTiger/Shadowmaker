@@ -102,3 +102,13 @@ Equality_X12
         Web Site: http://freesound.org/people/Equality_X12/sounds/324048/
         License Type: Creative Commons [ http://creativecommons.org/licenses/by/3.0/ ]
             Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
+GZDoom Builder
+----
+    Created or made available a Light sprite, that is used for the light tower (Editor used only).
+        Web Site: http://forum.zdoom.org/viewtopic.php?p=613830#p613830
+        Source Code: http://svn.code.sf.net/p/doombuilder/code/branches/GZDoomBuilder/
+        License Type: GPLv3 [ https://opensource.org/licenses/GPL-3.0 ]
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.

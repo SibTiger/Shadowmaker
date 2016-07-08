@@ -8,4 +8,5 @@
 
 #-Address  |  Object
 -----------------------
+191          LightTowerBase
 9112         MapSpotCeiling [Breakable Glass]
