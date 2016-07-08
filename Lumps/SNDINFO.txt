@@ -42,3 +42,29 @@ $AMBIENT 3 World/ElectricBuzzing1 POINT CONTINUOUS 1.0
 
 World/OceanWaves        OceanWav
 $AMBIENT 4 World/OceanWaves POINT CONTINUOUS 1.0
+
+
+// --
+
+
+// Wind Whistling
+World/WindWhistle   wndwist
+$AMBIENT 5 World/WindWhistle POINT RANDOM 25.0 60.0 0.8
+
+
+// --
+World/GentleBreeze      wndgntl
+$AMBIENT 6 World/GentleBreeze POINT CONTINUOUS 1.0
+
+
+// --
+
+
+World/WindyBreeze       wndbrez
+$AMBIENT 7 World/WindyBreeze POINT CONTINUOUS 0.9
+
+// --
+
+
+World/WindyBreeze1      wndbrez1
+$AMBIENT 8 World/WindyBreeze1 POINT CONTINUOUS 0.9
