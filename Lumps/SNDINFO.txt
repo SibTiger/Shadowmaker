@@ -1,3 +1,16 @@
+//======================
+//    Special Effects
+//======================
+
+
+// RainSpawner
+Ambient/Rain        AMBRAIN
+$volume Ambient/Rain 0.4
+
+
+// --
+
+
 // Breakable Glass
 GLASS   DSGLASS     //Glass smashing
 $limit  GLASS       4
