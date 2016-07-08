@@ -21,3 +21,17 @@ $limit  GLASS       4
 
 // Rain
 $ambient 1 Ambient/Rain point 1.0 continuous 0.5
+
+
+// --
+
+
+World/ElectricBuzzing   ElecBuz
+$AMBIENT 2 World/ElectricBuzzing POINT CONTINUOUS 1.0
+
+
+// --
+
+
+World/ElectricBuzzing1  ElecBuz1
+$AMBIENT 3 World/ElectricBuzzing1 POINT CONTINUOUS 1.0
