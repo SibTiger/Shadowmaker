@@ -28,7 +28,7 @@ ACTOR MapSpotCeiling : MapSpot 9112
 {
     // GZDoom Builder Configuration
     // ==============================
-        //$Category "World Effects"
+        //$Category "Special Effects"
         //$Color 9
         //$Sprite NJGLB0
         //$Angled
