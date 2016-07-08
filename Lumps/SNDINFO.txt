@@ -68,3 +68,14 @@ $AMBIENT 7 World/WindyBreeze POINT CONTINUOUS 0.9
 
 World/WindyBreeze1      wndbrez1
 $AMBIENT 8 World/WindyBreeze1 POINT CONTINUOUS 0.9
+
+
+// --
+
+
+// TGRDM3's Teleport Humming
+World/TeleportGate   TeleHum
+$AMBIENT 9 World/TeleportGate POINT CONTINUOUS 0.5
+
+World/TeleportGate2   TeleHum2 // Demonic
+$AMBIENT 10 World/TeleportGate2 POINT CONTINUOUS 0.5
