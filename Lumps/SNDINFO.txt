@@ -14,3 +14,10 @@ $volume Ambient/Rain 0.4
 // Breakable Glass
 GLASS   DSGLASS     //Glass smashing
 $limit  GLASS       4
+
+
+// --
+
+
+// Rain
+$ambient 1 Ambient/Rain point 1.0 continuous 0.5
