@@ -35,3 +35,10 @@ $AMBIENT 2 World/ElectricBuzzing POINT CONTINUOUS 1.0
 
 World/ElectricBuzzing1  ElecBuz1
 $AMBIENT 3 World/ElectricBuzzing1 POINT CONTINUOUS 1.0
+
+
+// --
+
+
+World/OceanWaves        OceanWav
+$AMBIENT 4 World/OceanWaves POINT CONTINUOUS 1.0
