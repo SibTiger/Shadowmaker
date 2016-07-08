@@ -11,3 +11,15 @@ Boris
     Link: http://forum.zdoom.org/viewtopic.php?p=814835#p814835
             Legal Remarks:
                 Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
+Tormentor667
+----
+    Submitted and made available the listed assets that this project utilizes:
+        Fog
+            Edited by Zrrion the insect
+            Link: http://www.realm667.com/index.php/en/sfx-shoppe-mainmenu-139-58855/51-elemental-effects/1437-fog
+            Link Bkup: http://www.realm667.com/
+            Legal Remarks:
+                Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.

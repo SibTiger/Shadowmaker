@@ -4,3 +4,4 @@
 
 // Special Effects
     #include "Decorate/BreakableGlass.txt"
+    #include "Decorate/Fog.txt"
