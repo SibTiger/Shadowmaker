@@ -186,6 +186,9 @@ REM Maps
 REM Sprites
     SET "TaskCaller_CallLong=MKDIR %~1Sprites"
     CALL :CompileProject_TaskOperation || EXIT /B 1
+REM GLDefs
+    SET "TaskCaller_CallLong=MKDIR %~1GLDefs"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Textures
     SET "TaskCaller_CallLong=MKDIR %~1Textures"
     CALL :CompileProject_TaskOperation || EXIT /B 1
@@ -207,6 +210,9 @@ REM Decorate
     CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Sounds
     SET "TaskCaller_CallLong=MKDIR %~1Sounds"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
+REM GLDefs
+    SET "TaskCaller_CallLong=MKDIR %~1GLDefs"
     CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Sprites
     SET "TaskCaller_CallLong=MKDIR %~1Sprites"
@@ -237,6 +243,12 @@ REM Lumps
     CALL :CompileProject_TaskOperation
 REM Maps
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Maps\*.*" "%~1Maps\"
+    CALL :CompileProject_TaskOperation
+REM GLDefs
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\GLDefs\GLDefs.txt*" "%~1"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\GLDefs\Subsets\*.*" "%~1GLDefs\"
     CALL :CompileProject_TaskOperation
 REM Decorate
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Decorate\DECORATE.txt*" "%~1"
@@ -276,6 +288,12 @@ REM ----
 REM Duplicate the following:
 REM Lumps
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Lumps\*.*" "%~1"
+    CALL :CompileProject_TaskOperation
+REM GLDefs
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\GLDefs\GLDefs.txt*" "%~1"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\GLDefs\Subsets\*.*" "%~1GLDefs\"
     CALL :CompileProject_TaskOperation
 REM Decorate
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Decorate\DECORATE.txt*" "%~1"

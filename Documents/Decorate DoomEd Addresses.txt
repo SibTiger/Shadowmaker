@@ -9,4 +9,7 @@
 #-Address  |  Object
 -----------------------
 191          LightTowerBase
+192          LightTower_PointLight_Small
+193          LightTower_PointLight_Medium
+194          LightTower_PointLight_Large
 9112         MapSpotCeiling [Breakable Glass]

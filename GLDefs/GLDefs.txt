@@ -1,0 +1,7 @@
+// GZDoom GLDEFS
+// ZDOOM WIKI: http://zdoom.org/wiki/GLDEFS
+// ===================================================================
+
+
+// World
+#include "GLDefs/LightTower.txt"
