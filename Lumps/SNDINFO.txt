@@ -5,7 +5,7 @@
 
 // RainSpawner
 Ambient/Rain        AMBRAIN
-$volume Ambient/Rain 0.4
+$volume Ambient/Rain 0.7
 
 
 // --
@@ -20,7 +20,7 @@ $limit  GLASS       4
 
 
 // Rain
-$ambient 1 Ambient/Rain point 1.0 continuous 0.5
+$ambient 1 Ambient/Rain point 1.0 continuous 0.7
 
 
 // --
@@ -49,7 +49,7 @@ $AMBIENT 4 World/OceanWaves POINT CONTINUOUS 1.0
 
 // Wind Whistling
 World/WindWhistle   wndwist
-$AMBIENT 5 World/WindWhistle POINT RANDOM 25.0 60.0 0.8
+$AMBIENT 5 World/WindWhistle POINT RANDOM 25.0 60.0 1.0
 
 
 // --
@@ -75,7 +75,7 @@ $AMBIENT 8 World/WindyBreeze1 POINT CONTINUOUS 0.9
 
 // TGRDM3's Teleport Humming
 World/TeleportGate   TeleHum
-$AMBIENT 9 World/TeleportGate POINT CONTINUOUS 0.5
+$AMBIENT 9 World/TeleportGate POINT CONTINUOUS 1.0
 
 World/TeleportGate2   TeleHum2 // Demonic
-$AMBIENT 10 World/TeleportGate2 POINT CONTINUOUS 0.5
+$AMBIENT 10 World/TeleportGate2 POINT CONTINUOUS 1.0
