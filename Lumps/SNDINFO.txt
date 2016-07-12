@@ -73,6 +73,14 @@ $AMBIENT 8 World/WindyBreeze1 POINT CONTINUOUS 0.9
 // --
 
 
+// Reversed Whispering
+World/Whispers   whisper
+$AMBIENT 11 World/Whispers POINT RANDOM 25.0 60.0 0.6
+
+
+// --
+
+
 // TGRDM3's Teleport Humming
 World/TeleportGate   TeleHum
 $AMBIENT 9 World/TeleportGate POINT CONTINUOUS 0.5
