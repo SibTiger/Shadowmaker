@@ -1,0 +1,29 @@
+// Documentation
+// ===============
+// DMFlags
+// ----
+// In case if I ever need to revisit this again and alter the DMFlags,
+//  instead of bringing out the pen and paper and make a bit-field
+//  switches - here is a list of what is used:
+//
+//  REQUIRED REFERENCE:
+//   http://wiki.zandronum.com/DMFlags
+//
+// DMFlags
+//  SV_AllowJump     == 2^17
+//  SV_AllowCrouch   == 2^23
+//
+// DMFlags2
+// ===============
+
+
+
+// MAP01 <~> Shadowmaker
+{
+    MAPNAME = MAP01
+    GameMode = Invasion
+    WaveLimit = 7
+    //DMFlags = 0
+    //DMFlags2 = 0
+    //CompatFlags = 0
+}
