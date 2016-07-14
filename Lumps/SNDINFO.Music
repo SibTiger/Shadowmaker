@@ -1,0 +1,13 @@
+//======================
+//        Music
+//======================
+// For more Shane Strife's music, go here: http://forum.zdoom.org/viewtopic.php?p=472461#p472461
+
+
+
+// The map scripts will use these aliases, if needing to trade or change the music track to another
+//  file, it can be done in this file without needing to manually change the map's ACS script.
+$musicalias SM_MUS1 S_E2M7
+$musicalias SM_MUS2 S_E2M6
+$musicalias SM_MUS3 S_SHAWN
+$musicalias SM_MUS4 S_E3M8
