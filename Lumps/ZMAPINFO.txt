@@ -1,0 +1,13 @@
+MAP MAP01 "Shadowmaker"
+{
+    LevelNum = 1
+    InterPic = "string"
+    ExitPic = "string"
+    InterMusic = "string"
+    SmoothLighting
+    NoFallingDamage
+    AllowJump
+    AllowCrouch
+    AllowFreelook
+    RandomPlayerStarts
+} // Shadowmaker
