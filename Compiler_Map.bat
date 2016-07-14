@@ -180,6 +180,9 @@ REM Documentations
 REM Sounds
     SET "TaskCaller_CallLong=MKDIR %~1Sounds"
     CALL :CompileProject_TaskOperation || EXIT /B 1
+REM Music
+    SET "TaskCaller_CallLong=MKDIR %~1Music"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Maps
     SET "TaskCaller_CallLong=MKDIR %~1Maps"
     CALL :CompileProject_TaskOperation || EXIT /B 1
@@ -210,6 +213,9 @@ REM Decorate
     CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Sounds
     SET "TaskCaller_CallLong=MKDIR %~1Sounds"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
+REM Music
+    SET "TaskCaller_CallLong=MKDIR %~1Music"
     CALL :CompileProject_TaskOperation || EXIT /B 1
 REM GLDefs
     SET "TaskCaller_CallLong=MKDIR %~1GLDefs"
@@ -268,8 +274,12 @@ REM Sprites
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\LightTower\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
-REM Sounds 
+REM Sounds
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\World\*.*" "%~1Sounds\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+REM Music
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Music\*.*" "%~1Music\"
     CALL :CompileProject_TaskOperation
     REM ----
 EXIT /B 0
@@ -316,6 +326,10 @@ REM Sprites
 REM Sounds 
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\World\*.*" "%~1Sounds\"
     CALL :CompileProject_TaskOperation
+REM Music
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Music\*.*" "%~1Music\"
+    CALL :CompileProject_TaskOperation
+    REM ----
 REM ----
 EXIT /B 0
 
