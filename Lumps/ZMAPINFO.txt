@@ -1,8 +1,8 @@
 MAP MAP01 "Shadowmaker"
 {
     LevelNum = 1
-    InterPic = "string"
-    ExitPic = "string"
+    InterPic = "SM_EnPic"
+    ExitPic = "SM_ExPic"
     InterMusic = "string"
     SmoothLighting
     NoFallingDamage

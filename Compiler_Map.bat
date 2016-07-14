@@ -192,6 +192,9 @@ REM Sprites
 REM GLDefs
     SET "TaskCaller_CallLong=MKDIR %~1GLDefs"
     CALL :CompileProject_TaskOperation || EXIT /B 1
+REM Graphics
+    SET "TaskCaller_CallLong=MKDIR %~1Graphics"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Textures
     SET "TaskCaller_CallLong=MKDIR %~1Textures"
     CALL :CompileProject_TaskOperation || EXIT /B 1
@@ -222,6 +225,9 @@ REM GLDefs
     CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Sprites
     SET "TaskCaller_CallLong=MKDIR %~1Sprites"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
+REM Graphics
+    SET "TaskCaller_CallLong=MKDIR %~1Graphics"
     CALL :CompileProject_TaskOperation || EXIT /B 1
 REM ----
 EXIT /B 0
@@ -274,6 +280,9 @@ REM Sprites
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\LightTower\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
+REM Graphics
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Graphics\*.*" "%~1Graphics\"
+    CALL :CompileProject_TaskOperation
 REM Sounds
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\World\*.*" "%~1Sounds\"
     CALL :CompileProject_TaskOperation
@@ -322,6 +331,9 @@ REM Sprites
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\LightTower\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+REM Graphics
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Graphics\*.*" "%~1Graphics\"
     CALL :CompileProject_TaskOperation
 REM Sounds 
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\World\*.*" "%~1Sounds\"
