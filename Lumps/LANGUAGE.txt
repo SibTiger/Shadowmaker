@@ -7,31 +7,31 @@
 // -------------------------------------------------------
 
 // Shadowmaker: Wave 1
-Shadowmaker_WaveTitle1 = "";
+Shadowmaker_WaveTitle1 = "Introduction Wave";
 
 
 // Shadowmaker: Wave 2
-Shadowmaker_WaveTitle2 = "";
+Shadowmaker_WaveTitle2 = "Getting Warmed Up!";
 
 
 // Shadowmaker: Wave 3
-Shadowmaker_WaveTitle3 = "";
+Shadowmaker_WaveTitle3 = "Are You Not Entertained Yet?!";
 
 
 // Shadowmaker: Wave 4
-Shadowmaker_WaveTitle4 = "";
+Shadowmaker_WaveTitle4 = "Unleash the Horde!";
 
 
 // Shadowmaker: Wave 5
-Shadowmaker_WaveTitle5 = "";
+Shadowmaker_WaveTitle5 = "Evilution";
 
 
 // Shadowmaker: Wave 6
-Shadowmaker_WaveTitle6 = "";
+Shadowmaker_WaveTitle6 = "Opening of the Gates";
 
 
 // Shadowmaker: Wave 7
-Shadowmaker_WaveTitle7 = "";
+Shadowmaker_WaveTitle7 = "The Eye of Evil";
 
 
 
