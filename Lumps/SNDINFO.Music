@@ -11,3 +11,6 @@ $musicalias SM_MUS1 S_E2M7
 $musicalias SM_MUS2 S_E2M6
 $musicalias SM_MUS3 S_SHAWN
 $musicalias SM_MUS4 S_E3M8
+
+// Intermission
+$musicalias SM_Inter S_DM2INT
