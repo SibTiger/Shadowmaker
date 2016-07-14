@@ -14,6 +14,11 @@
 //  SV_AllowCrouch   == 2^23
 //
 // DMFlags2
+//  SV_BFGFreeAim               == 2^8
+//  SV_AwardDamageInsteadKills  == 2^20
+//
+// CompatFlags
+//  Compat_Limited_AirMovement  == 2^13
 // ===============
 
 
@@ -23,7 +28,7 @@
     MAPNAME = MAP01
     GameMode = Invasion
     WaveLimit = 7
-    //DMFlags = 0
-    //DMFlags2 = 0
-    //CompatFlags = 0
+    DMFlags = 8519680
+    DMFlags2 = 1048832
+    CompatFlags = 131072
 }
