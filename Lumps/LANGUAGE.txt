@@ -23,11 +23,11 @@ Shadowmaker_WaveTitle4 = "Unleash the Horde!";
 
 
 // Shadowmaker: Wave 5
-Shadowmaker_WaveTitle5 = "Evilution";
+Shadowmaker_WaveTitle5 = "Opening of the Gates";
 
 
 // Shadowmaker: Wave 6
-Shadowmaker_WaveTitle6 = "Opening of the Gates";
+Shadowmaker_WaveTitle6 = "Evilution";
 
 
 // Shadowmaker: Wave 7
