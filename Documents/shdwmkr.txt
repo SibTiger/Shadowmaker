@@ -1,16 +1,30 @@
 ===========================================================================
 Advanced engine needed  : Zandronum 3.0 or better
-Primary purpose         : Single + coop play
+Primary purpose         : Invasion
 ===========================================================================
 Title                   : Shadowmaker
 Filename                : shdwmkr
-Release date            : Day.Month.Year
+Release date            : xx.August.2016
 Author                  : Nicholas "Tiger" Gautier
 Email Address           : SibTiger_And_Life@hotmail.com
-Other Files By Author   : asdf
-Misc. Author Info       : asdf
+Other Files By Author   : TGRDM1
+                            https://www.doomworld.com/idgames/levels/doom2/deathmatch/Ports/s-u/tgrdm1
+                          TGRDM2
+                            https://www.doomworld.com/idgames/levels/doom2/deathmatch/Ports/s-u/tgrdm2
+                          TGRCP1
+                            https://www.doomworld.com/idgames/levels/doom2/Ports/s-u/tgrcp1
+                          STFBall2
+                            https://www.doomworld.com/idgames/deathmatch/skulltag/stfball2
+                          Amisery
+                            https://www.doomworld.com/idgames/levels/doom2/deathmatch/Ports/a-c/amisery
+                          TGRDM3
+                            {LINK}
+Misc. Author Info       : Ich liebe Siberian Tigers :)
 
-Description             : asdf
+Description             : This is my first attempt on making an Invasion map, hopefully it meets up to standards
+                            and expectations of a traditional invasion game.  This map contains seven waves, in which 
+                            the player will have to fight through mounds of demons and hellspawn.  To spice the waves 
+                            up a bit, I have included different music to play through every few waves.
 
 Additional Credits to   : asdf
 ===========================================================================
@@ -23,9 +37,7 @@ Graphics                : Yes
 Dehacked/BEX Patch      : No
 Demos                   : No
 Other                   : No
-Other files required    : SkullTag Resources [
-                          https://zandronum.com/forum/viewtopic.php?p=16527#p16527
-                          ]
+Other files required    : SkullTag Resources [ https://zandronum.com/forum/viewtopic.php?p=16527#p16527 ]
 
 
 * Play Information *
@@ -42,9 +54,9 @@ Difficulty Settings     : Not implemented
 * Construction *
 
 Base                    : New from scratch
-Build Time              : 1 Month
-Editor(s) used          : GZDoom Builder, SLADE, Notepad++, MSPaint, and a
-                          lot of Shell Scripts
+Build Time              : Approximately a Month
+Editor(s) used          : GZDoom Builder, SLADE, Notepad++, MSPaint, and 
+                          some Shell Scripts
 Known Bugs              : Zandronum 3.0:
                             Music will not fade out as the ACS function
                           'SetMusicVolume()' was added in after ZDoom 2.8.0.
