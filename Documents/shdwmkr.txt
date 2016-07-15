@@ -25,6 +25,33 @@ Description             : This is my first attempt on making an Invasion map, ho
                             and expectations of a traditional invasion game.  This map contains seven waves, in which 
                             the player will have to fight through mounds of demons and hellspawn.  To spice the waves 
                             up a bit, I have included different music to play through every few waves.
+                            
+                            
+                          VIDEO RENDERER NOTES
+                          -------------------------
+                          OpenGL _IS_ required when playing this map.  This map utilizes dynamic lighting as a source
+                            for lights and effects, as well as 3D Slopped Floors.
+                          
+                          
+                          PERFORMANCE NOTES
+                          -------------------------
+                            This map might be rather resource and rendering
+                            intensive on various systems abroad.  Here is a
+                            few Console Variables that could help a bit by
+                            disabling some special features based on the
+                            Zandronum [GZDoom] engine:
+                                Line Mirrors (Software Renderer)
+                                    R_DrawMirrors [True|False]
+                                Line Mirrors (OpenGL Renderer)
+                                    GL_Mirrors [True|False]
+                                Sector Reflections
+                                    GL_Plane_Reflection [True|False]
+                                Dynamic Lights
+                                    GL_Lights [True|False]
+                                Render translucency effects
+                                    R_DrawTrans [True|False]
+                                Toggle Rendering Precision
+                                    GL_Render_Precise [True|False]
 
 Additional Credits to   : asdf
 ===========================================================================
