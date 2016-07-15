@@ -25,12 +25,19 @@ Description             : This is my first attempt on making an Invasion map, ho
                             and expectations of a traditional invasion game.  This map contains seven waves, in which 
                             the player will have to fight through mounds of demons and hellspawn.  To spice the waves 
                             up a bit, I have included different music to play through every few waves.
+                          Moreover, this is a contribution submission to Zandronum's Community project:
+                            Invasion Unleashed [ https://zandronum.com/forum/viewtopic.php?p=43155#p43155 ]
+                          
+                          Why is this map called Shadowmaker?  Primarily from this song by Apocalyptica: Shadowmaker
+                            [ https://youtu.be/MtUU5AP4XZg ]
+                            
                             
                             
                           VIDEO RENDERER NOTES
                           -------------------------
                           OpenGL _IS_ required when playing this map.  This map utilizes dynamic lighting as a source
                             for lights and effects, as well as 3D Slopped Floors.
+                          
                           
                           
                           PERFORMANCE NOTES
@@ -53,7 +60,69 @@ Description             : This is my first attempt on making an Invasion map, ho
                                 Toggle Rendering Precision
                                     GL_Render_Precise [True|False]
 
-Additional Credits to   : asdf
+Additional Credits to   : RESOURCES AND ASSETS
+                          -------------------------
+                          This a brief list of credits, for more information
+                          and links to the resources, please see the Credits.txt
+                          located in the /documents/ in this .pk3 archive.
+                          Affliction
+                            Created a script to detect duplicate files.
+                          Tormentor667
+                            Made available the Fog and Rain assets.
+                          Boris
+                            Created and made available the breakable glass functionality.
+                          GZDoom Builder
+                            Created and made available the 'light bulb' image.
+                          BouncyTEM
+                            Made available the Demonic Drones sounds.
+                          Arctura
+                            Created and made available the rain sound effect.
+                          Sevin7
+                            Created and made available a Electrical humming sound effect
+                          kbnevel
+                            Created and made available a Electrical humming sound effect
+                          ppfpower87
+                            Created and made available a ocean wave sound effect
+                          nhaudio
+                            Created and made available the wind whistling sound
+                          mario1298
+                            Created and made available variations of wind sound effects
+                          Equality_X12
+                            Created and made available a wind sound effect
+                          klankbeeld
+                            Created and made available a sound effect of broken glass.
+                          Erdie
+                            Created and made available a sound effect of people whispering.
+                          Shane Strife (AKA Shane)
+                            Created and made available a high definition version of Doom and Doom 2
+                            soundtracks  [ http://forum.zdoom.org/viewtopic.php?p=472461#p472461 ]
+                          
+                          
+                          
+                          TEXTURES
+                          -------------------------
+                          This a brief list of texture credits, for more information
+                          and links to the resources, please see the texture documentation
+                          located in the /documents/textures/ in this .pk3 archive.
+                          
+                          
+                          
+                          SPECIAL THANKS
+                          -------------------------
+                          NeuralStunner
+                            Helped with setting up the appropriate mathematical formula needed
+                            to make the point lights to rotate at the center of the light house.
+                          CodeImp
+                            For making Doom Builder and Doom Builder 2
+                          MaxED
+                            For making GZDoom Builder, the best freakin' Doom
+                            map editor available!
+                          Graf Zahl
+                            Taking ZDoom and adding OpenGL, making GZDoom.
+                            The best engine around!
+                          Zandronum Development Team
+                            Continued work on the Zandronum engine and making
+                            what used to be SkullTag even better!
 ===========================================================================
 * What is included *
 
