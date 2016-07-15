@@ -16,9 +16,6 @@
 // DMFlags2
 //  SV_BFGFreeAim               == 2^8
 //  SV_AwardDamageInsteadKills  == 2^20
-//
-// CompatFlags
-//  Compat_Limited_AirMovement  == 2^13
 // ===============
 
 
@@ -30,5 +27,4 @@
     WaveLimit = 7
     DMFlags = 8519680
     DMFlags2 = 1048832
-    CompatFlags = 131072
 }
