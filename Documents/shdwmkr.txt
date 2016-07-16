@@ -27,6 +27,14 @@ Description             : This is my first attempt on making an Invasion map, ho
                             up a bit, I have included different music to play through every few waves.
                           Moreover, this is a contribution submission to Zandronum's Community project:
                             Invasion Unleashed [ https://zandronum.com/forum/viewtopic.php?p=43155#p43155 ]
+                            
+                          Furthermore, I will note that the light house - isn't exactly the way I imagined.  The light house
+                            just doesn't seem like a light house without some sort of halo or a strong indication of the
+                            source hosting an actual light.  When the player is in side the light house, the point light is
+                            enough to demonstrate that the light house's light source is active, but from a-far - it isn't
+                            as it is simply way too dark.  There has to be a better way to make the light house actually
+                            seem like a light house, but I am unsure as to how.  If anyone has a solution, feel free to make
+                            it happen.
                           
                           Why is this map called Shadowmaker?  Primarily from this song by Apocalyptica: Shadowmaker
                             [ https://youtu.be/MtUU5AP4XZg ]
