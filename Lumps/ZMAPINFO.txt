@@ -9,7 +9,6 @@ MAP MAP01 "Shadowmaker"
     AllowCrouch
     AllowFreelook
     RandomPlayerStarts
-    AllowRespawn
     // Because these textures are going to be called via ACS,
     //  tell ZDoom that we're going to need them on-demand.
         PrecacheTextures = "NJSMSH01", "NJSMSH02", "NJSMSH03", "NJSMSH04"
