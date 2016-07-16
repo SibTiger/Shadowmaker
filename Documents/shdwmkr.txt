@@ -148,7 +148,7 @@ Additional Credits to   : RESOURCES AND ASSETS
                           Baker's Legacy Texture Pack [BAK_LEG]
                             http://realm667.com/index.php/repository/texture-stock-mainmenu-152/752-bakers-legacy-texture-pack?catid=56%3Aheretic--hexen-style
                           Breakable Glass (Test Submission) [breakglass]
-                            http://forum.zdoom.org/viewtopic.php?p=814835&sid=b3974f10e286d3978d9182c1a1baf566#p814835
+                            http://forum.zdoom.org/viewtopic.php?p=814835#p814835
                           
                           
                           

@@ -2,4 +2,4 @@
 THIS IS A PLACE HOLDER FOR THE breakglass.txt!
 
 
-The README file was not included in [ http://forum.zdoom.org/viewtopic.php?p=814835&sid=b3974f10e286d3978d9182c1a1baf566#p814835  ~~~  http://forum.zdoom.org/download/file.php?id=22079 ]; the proper credits goes to the mysterious author(s) that created the textures.
+The README file was not included in [ http://forum.zdoom.org/viewtopic.php?p=814835#p814835  ~~~  http://forum.zdoom.org/download/file.php?id=22079 ]; the proper credits goes to the mysterious author(s) that created the textures.
