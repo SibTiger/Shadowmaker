@@ -35,6 +35,10 @@ Description             : This is my first attempt on making an Invasion map, ho
                             as it is simply way too dark.  There has to be a better way to make the light house actually
                             seem like a light house, but I am unsure as to how.  If anyone has a solution, feel free to make
                             it happen.
+                            
+                          Unfortunately due to whatever reason, leaving the map at 'MAP01' causes some issues with the 'CMPGNINF'
+                            lump when the SkullTag Resources are included.  So, in order to make this game run flawlessly for everyone,
+                            I changed the map from 'MAP01' to 'SHDWMKR'.
                           
                           Why is this map called Shadowmaker?  Primarily from this song by Apocalyptica: Shadowmaker
                             [ https://youtu.be/MtUU5AP4XZg ]
@@ -192,7 +196,7 @@ Other files required    : SkullTag Resources [ https://zandronum.com/forum/viewt
 * Play Information *
 
 Game                    : Doom 2
-Map #                   : MAP01
+Map #                   : SHDWMKR
 Single Player           : Designed for
 Cooperative 2-4 Player  : Designed for
 Deathmatch 2-4 Player   : No

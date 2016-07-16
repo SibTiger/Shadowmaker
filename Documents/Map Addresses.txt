@@ -1,3 +1,3 @@
 Invasion
 ==================
-    MAP01 = Shadowmaker
+    SHDWMKR = Shadowmaker
