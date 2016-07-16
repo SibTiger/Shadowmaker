@@ -12,6 +12,7 @@ Most maps in this project uses seriously intensive resources for the features\ey
         GL_Plane_Reflection [True|False]
     Dynamic Lights
         GL_Lights [True|False]
+        WARNING: Disabling lights will make the map darker!
     Render translucency effects
         R_DrawTrans [True|False]
     Toggle Rendering Precision

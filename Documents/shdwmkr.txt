@@ -55,6 +55,7 @@ Description             : This is my first attempt on making an Invasion map, ho
                                     GL_Plane_Reflection [True|False]
                                 Dynamic Lights
                                     GL_Lights [True|False]
+                                    WARNING: Disabling lights will make the map darker!
                                 Render translucency effects
                                     R_DrawTrans [True|False]
                                 Toggle Rendering Precision
