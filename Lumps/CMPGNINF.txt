@@ -19,9 +19,9 @@
 
 
 
-// SHDWMKR <~> Shadowmaker
+// MAP01 <~> Shadowmaker
 {
-    MAPNAME = SHDWMKR
+    MAPNAME = MAP01
     GameMode = Invasion
     WaveLimit = 7
     DMFlags = 8519680

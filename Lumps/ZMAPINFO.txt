@@ -1,4 +1,4 @@
-MAP SHDWMKR "Shadowmaker"
+MAP MAP01 "Shadowmaker"
 {
     LevelNum = 1
     ExitPic = "SM_InPic"
