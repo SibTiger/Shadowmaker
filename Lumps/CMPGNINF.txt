@@ -14,8 +14,7 @@
 //  SV_AllowCrouch   == 2^23
 //
 // DMFlags2
-//  SV_BFGFreeAim               == 2^8
-//  SV_AwardDamageInsteadKills  == 2^20
+//  SV_BFGFreeAim    == 2^8
 // ===============
 
 
@@ -26,5 +25,5 @@
     GameMode = Invasion
     WaveLimit = 7
     DMFlags = 8519680
-    DMFlags2 = 1048832
+    DMFlags2 = 256
 }
