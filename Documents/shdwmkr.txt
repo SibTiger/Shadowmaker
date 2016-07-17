@@ -35,6 +35,12 @@ Description             : This is my first attempt on making an Invasion map, ho
                             as it is simply way too dark.  There has to be a better way to make the light house actually
                             seem like a light house, but I am unsure as to how.  If anyone has a solution, feel free to make
                             it happen.
+                            
+                          In addition, do note that the SkullTag Resources is required to play this map.  With that said, the
+                            load order has to be specific.  Load Order must be the following:
+                                SkullTag_Contents.pk3
+                                shdwmkr.pk3
+                            The link to the SkullTag Resources is provided below under "Other files required".
                           
                           Why is this map called Shadowmaker?  Primarily from this song by Apocalyptica: Shadowmaker
                             [ https://youtu.be/MtUU5AP4XZg ]
