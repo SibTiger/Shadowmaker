@@ -37,3 +37,8 @@ TEXTURE TX1_0DP
 // Texture Base: smdm
 // -----------------
     WARP2 FLAT TX3_011
+
+
+// Shadowmaker Specifics
+// -----------------
+    WARP FLAT TX5_000
