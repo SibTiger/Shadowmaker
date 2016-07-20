@@ -20,3 +20,4 @@ SPECIAL TEXTURES
     NJSMSH03
     NJSMSH04
     ZRIONGLS
+    EGG < Easter egg relates to: https://www.twitch.tv/bzplasma >
