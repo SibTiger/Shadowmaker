@@ -12,8 +12,29 @@ $volume Ambient/Rain 0.4
 
 
 // Breakable Glass
-GLASS   DSGLASS     //Glass smashing
+GLASS   DSGLASS     // Glass destroyed <Flying monsters creep into room with large dead Cyberdemon>
 $limit  GLASS       4
+
+
+// --
+
+
+GLASS1  DSGLASS1    // Glass Destroyed <Mid-Tier portal room>
+$limit  GLASS1      4
+
+
+// --
+
+
+GLASS2  DSGLASS2    // Glass Destroyed <Small room with Plasma Rifle and Tiger signature>
+$limit  GLASS2      4
+
+
+// --
+
+
+GLASS3  DSGLASS3    // Glass Destroyed <Small room with next to high-tier portal>
+$limit  GLASS3      4
 
 
 // --
