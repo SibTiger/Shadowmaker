@@ -4,7 +4,7 @@ Primary purpose         : Invasion
 ===========================================================================
 Title                   : Shadowmaker
 Filename                : shdwmkr
-Release date            : xx.August.2016
+Release date            : xx.September.2016
 Author                  : Nicholas "Tiger" Gautier
 Email Address           : SibTiger_And_Life@hotmail.com
 Other Files By Author   : TGRDM1
