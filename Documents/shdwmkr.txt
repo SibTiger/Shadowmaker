@@ -1,11 +1,10 @@
 ===========================================================================
-Archive Maintainer      : ATT: THIS IS NOT TO BE UPLOADED: BETA BUILD ONLY
 Advanced engine needed  : Zandronum 3.0 or better
 Primary purpose         : Invasion
 ===========================================================================
 Title                   : Shadowmaker
 Filename                : shdwmkr
-Release date            : xx.September.2016
+Release date            : 21.September.2016
 Author                  : Nicholas "Tiger" Gautier
 Email Address           : SibTiger_And_Life@hotmail.com
 Other Files By Author   : TGRDM1
@@ -19,7 +18,7 @@ Other Files By Author   : TGRDM1
                           Amisery
                             https://www.doomworld.com/idgames/levels/doom2/deathmatch/Ports/a-c/amisery
                           TGRDM3
-                            {LINK}
+                            https://www.doomworld.com/idgames/levels/doom2/deathmatch/Ports/megawads/tgrdm3
 Misc. Author Info       : Ich liebe Siberian Tigers :)
 
 Description             : This is my first attempt on making an Invasion map, hopefully it meets up to standards
@@ -210,7 +209,7 @@ Difficulty Settings     : Not implemented
 
 Base                    : New from scratch
 Build Time              : Approximately a Month
-Editor(s) used          : GZDoom Builder, SLADE, Notepad++, MSPaint, and 
+Editor(s) used          : GZDoom Builder, SLADE, Notepad++, GIMP, MSPaint, and 
                           some Shell Scripts
 Known Bugs              : Zandronum 3.0:
                             Music will not fade out as the ACS function
